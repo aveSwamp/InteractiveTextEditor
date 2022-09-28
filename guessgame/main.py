@@ -10,7 +10,7 @@ while(guessed_number != users_variant):
     users_variant = int(input())
     if guessed_number < users_variant:
         print("Guessed number is less than yours variant")
-    else:
+    elif guessed_number > users_variant:
         print("Guessed number is more than yours variant")
     attempts += 1
 print("Well done!")
